@@ -32,6 +32,9 @@ TESTS += t_ex6_3.TESTS
 from gpfit.tests import t_examples
 TESTS += t_examples.TESTS
 
+from gpfit.tests import t_fit
+TESTS += t_fit.TESTS
+
 
 def run(xmloutput=False):
     """Run all gpfit unit tests.
